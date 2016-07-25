@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Neighborhood</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Parkvue-Plainvue Turn</string>
+			<key>Latitude</key>
+			<real>39.515129</real>
+			<key>Longitude</key>
+			<real>-76.445083</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Parkvue-Fallsmont Turn</string>
+			<key>Latitude</key>
+			<real>39.513423</real>
+			<key>Longitude</key>
+			<real>-76.44452</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fallmont Curve</string>
+			<key>Latitude</key>
+			<real>39.513656</real>
+			<key>Longitude</key>
+			<real>-76.44778100000001</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fallsmont-Plainvue Turn</string>
+			<key>Latitude</key>
+			<real>39.515393</real>
+			<key>Longitude</key>
+			<real>-76.44831600000001</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fallsmont-Parkvue Turn</string>
+			<key>Latitude</key>
+			<real>39.517453</real>
+			<key>Longitude</key>
+			<real>-76.44793</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Parkvue Curve</string>
+			<key>Latitude</key>
+			<real>39.517341</real>
+			<key>Longitude</key>
+			<real>-76.44659900000001</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+	</array>
+	<key>WorkRoute</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Long Green Pike-Glen Arm</string>
+			<key>Latitude</key>
+			<real>39.453917</real>
+			<key>Longitude</key>
+			<real>-76.494139</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Glen Arm Curve</string>
+			<key>Latitude</key>
+			<real>39.425234</real>
+			<key>Longitude</key>
+			<real>-76.52893299999999</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>83 Split</string>
+			<key>Latitude</key>
+			<real>39.415024</real>
+			<key>Longitude</key>
+			<real>-76.66049700000001</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>83 Merge</string>
+			<key>Latitude</key>
+			<real>39.404969</real>
+			<key>Longitude</key>
+			<real>-76.66197</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Turn 1</string>
+			<key>Latitude</key>
+			<real>39.306256</real>
+			<key>Longitude</key>
+			<real>-76.615307</real>
+			<key>Radius</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Turn 2</string>
+			<key>Latitude</key>
+			<real>39.305617</real>
+			<key>Longitude</key>
+			<real>-76.61187</real>
+			<key>Radius</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Lombard Turn</string>
+			<key>Latitude</key>
+			<real>39.288262</real>
+			<key>Longitude</key>
+			<real>-76.60509999999999</real>
+			<key>Radius</key>
+			<integer>15</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
