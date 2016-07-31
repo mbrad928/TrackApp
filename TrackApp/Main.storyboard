@@ -96,13 +96,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="paf-uh-DEc">
-                        <barButtonItem key="rightBarButtonItem" title="Start" id="xcd-Zy-Suo">
-                            <connections>
-                                <action selector="start:" destination="yla-RA-cHr" id="Cpc-j7-UAc"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Map" id="paf-uh-DEc"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="mapView" destination="0ya-Fc-w1m" id="cuv-h8-yNj"/>
@@ -171,25 +165,16 @@
                                     <action selector="createAccount:" destination="ber-id-GrR" eventType="touchUpInside" id="8k7-vd-8oj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6w-z1-8Ev">
-                                <rect key="frame" x="20" y="400" width="335" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AgE-oH-9gA" firstAttribute="centerX" secondItem="Bg2-8I-uEh" secondAttribute="centerX" id="2tm-76-Cae"/>
                             <constraint firstItem="aPe-dA-gGS" firstAttribute="leading" secondItem="Bg2-8I-uEh" secondAttribute="leadingMargin" constant="144" id="6Py-Nl-Fgj"/>
                             <constraint firstAttribute="leadingMargin" secondItem="vM2-Ht-sh0" secondAttribute="leading" id="AfW-wD-H3o"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="y6w-z1-8Ev" secondAttribute="trailing" id="C1t-8f-cFg"/>
                             <constraint firstAttribute="leadingMargin" secondItem="1RA-Qi-QOP" secondAttribute="leading" id="Dws-nc-5lB"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="y6w-z1-8Ev" secondAttribute="leading" id="EWm-7d-yHN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vM2-Ht-sh0" secondAttribute="trailing" id="Jig-jh-ItC"/>
                             <constraint firstAttribute="leadingMargin" secondItem="tzH-lz-LqO" secondAttribute="leading" id="MUD-eM-GHb"/>
                             <constraint firstItem="tzH-lz-LqO" firstAttribute="top" secondItem="vM2-Ht-sh0" secondAttribute="bottom" constant="30" id="TI9-KQ-1Zr"/>
-                            <constraint firstItem="y6w-z1-8Ev" firstAttribute="centerX" secondItem="Bg2-8I-uEh" secondAttribute="centerX" id="WbI-df-Wsr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tzH-lz-LqO" secondAttribute="trailing" id="Wgx-fh-QiL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1RA-Qi-QOP" secondAttribute="trailing" id="cS3-1U-yqa"/>
                             <constraint firstItem="1RA-Qi-QOP" firstAttribute="top" secondItem="tzH-lz-LqO" secondAttribute="bottom" constant="30" id="ijs-ps-4TU"/>

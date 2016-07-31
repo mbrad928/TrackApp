@@ -29,6 +29,16 @@ class MapController: UIViewController, MKMapViewDelegate, CLLocationManagerDeleg
         setupLocationInfo()
     }
     
+    override func viewDidAppear(animated: Bool) {
+        mapView.removeOverlays(mapView.overlays)
+        let tabBarController = self.tabBarController as! TabBarController
+        self.trackName = tabBarController.selectedTrack
+        if(trackName != ""){
+            setupRegions()
+        }
+
+    }
+    
     
     
     override func didReceiveMemoryWarning() {
@@ -51,17 +61,10 @@ class MapController: UIViewController, MKMapViewDelegate, CLLocationManagerDeleg
         mapView.delegate = self
         mapView.mapType = MKMapType.Satellite
         self.mapView.setUserTrackingMode(MKUserTrackingMode.Follow, animated: true);
+        
+        
     }
     
-    /* Called when Start button is tapped */
-    @IBAction func start(sender: UIBarButtonItem) {
-        mapView.removeOverlays(mapView.overlays)
-        let tabBarController = self.tabBarController as! TabBarController
-        self.trackName = tabBarController.selectedTrack
-        if(trackName != ""){
-            setupRegions()
-        }
-    }
     
     /* Called by start(). Gets regions for current track from Firebase and overlays circles on map */
     func setupRegions(){
